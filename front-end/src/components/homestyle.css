@@ -1,0 +1,44 @@
+#home-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:25px;
+}
+#welcome-heading{
+    border: 2px solid rgb(58, 58, 58);
+    border-radius: 30%;
+    padding:2%;
+    font-size: 1.5rem;
+    width: 40%;
+    margin:10px;
+    text-align: center;
+}
+#data-container{
+    background-color: lightgoldenrodyellow;
+    overflow: hidden;
+    overflow-y: auto;
+    margin-top: 5px;
+    border: 2px solid black; width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#data-container div{
+    box-sizing: border-box;
+    height:5%;
+    width: 100%;
+    font-size: 1.3rem;
+    margin: 3%;
+    padding: 3%;
+}
+#button-container{
+    height: 10%;
+}
+
+#button-container button{
+    height: 35px;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin-top:1% ;
+}

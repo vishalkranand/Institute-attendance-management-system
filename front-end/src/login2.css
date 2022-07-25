@@ -1,0 +1,137 @@
+.pics{
+    display: inline-block;
+    height: 100;
+    width: 120;
+    margin-right: 1em;
+}
+
+img, svg {
+    vertical-align: top;
+}
+
+.iiitv{
+    font-family: 'Noto Serif', serif;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0;
+    color: rgb(0, 0, 0);
+    font-size: 43px;  
+    padding-left: 6rem;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(142, 141, 141);
+    padding-top: 30px;    
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+}
+
+.logo{
+    background-color:rgb(157, 156, 156);
+    margin-bottom: 0;
+    padding: 0 1rem;
+}
+
+hr{
+
+    color: rgb(33, 3, 3);
+    margin-top: 0;
+    height: 5px;
+
+}
+
+.form-group {
+    /* text-align: center; */
+    display: block;
+    width: 178px;
+    padding: 10px;
+    cursor: pointer;
+    border: 0px solid black;
+    margin: 13px auto;
+    /* background-color: rgb(230, 230, 230);
+    border-radius: 10px; */
+    box-shadow: 2px 11px 42px 0 rgb(242, 242, 242), 0 22px 20px 0 rgb(242, 242, 242);
+
+}
+
+.container {
+   
+    background-color:rgb(242, 242, 242);
+    border-radius: 12px;
+    display: inline-block;
+    position: absolute;
+    width: 14em;
+    padding: 60px;
+    margin: 59px 55px;
+    left:35%;
+    height: 18em;
+    box-shadow: 2px 11px 42px 0 rgb(3 0 0), 0 22px 20px 0 rgb(0 0 0 / 19%);
+    text-align: center;
+}
+
+.container2 {
+   
+    background-color:rgb(242, 242, 242);
+    border-radius: 12px;
+    display: inline-block;
+    position: absolute;
+    width: 18em;
+    padding: 60px;
+    margin: 45px 55px;
+    left:35%;
+    height: 28em;
+    box-shadow: 2px 11px 42px 0 rgb(3 0 0), 0 22px 20px 0 rgb(0 0 0 / 19%);
+    text-align: center;
+}
+
+
+
+
+.form-group input {
+    /* text-align: center; */
+    display: block;
+    font-size: 15px;
+    width: 200px;
+    height: 55px;
+    padding: 14px;
+    cursor: pointer;
+    border: 0px solid black;
+
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+
+
+}
+
+
+.container button , .container2 button {
+    color: whitesmoke;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgba(58, 58, 58, 0.836);
+    border-radius: 20px;
+    background-color: rgb(41, 41, 41);
+
+}
+.container button:hover, .container2 button:hover {
+    background-color: rgb(0, 0, 0);
+    transition-duration: 2ms;
+    color: rgb(242, 242, 242);
+}
+.container input:hover ,.container2 input:hover {
+    background-color: rgb(179, 179, 179);
+}
+.container h3 ,.container2 h3 {
+    color: black;
+    font-family: 'Baloo 2', cursive;
+    font-size: xx-large;
+    display: inline;
+    width: 33%;
+    margin: auto;
+    padding: 2px 3px;   
+}
